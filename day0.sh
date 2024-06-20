@@ -38,6 +38,7 @@ echo "Hi! This is just another sample text added to the file." >> sample.txt
 # I Change all users permission to deny any sort of access to ‘sample.txt’
 
  chmod 000 sample.txt
+sudo chmod 777 sample.txt
 
 # J Write a command to create a file named sample2.txt with content similar to that of sample.txt
 
@@ -50,7 +51,7 @@ for i in {1..3}; do
     echo "$(openssl rand -base64 12 | head -c 16)" >> sample.txt
 done
 
-# L Write a command to print the top 50 lines of the file
+# L Write a command to print the top 50 linesF of the file
 
 
 head -n 50 sample.txt
@@ -113,8 +114,7 @@ printenv
 
 # 7. You have some process running on a port in your system. How can you view and then kill the process from the terminal?
 # isof (we get PID by searching for the program)
-Kill PID.
-
+# Kill PID.
 
 
  
