@@ -23,7 +23,7 @@ grep -o 't' sample.txt | wc -l
 
 
 # F Change the owner's permissions to allow all the operations on the file. ( Read, Write, Execute )
-#  chmod u=rwx sample.txt
+ chmod u=rwx sample.txt
 
 # G Write a command to append following content in sample.txt file:
 # Hi! This is just another sample text added to the file.
@@ -38,7 +38,7 @@ echo "Hi! This is just another sample text added to the file." >> sample.txt
 # I Change all users permission to deny any sort of access to ‘sample.txt’
 
  chmod 000 sample.txt
-sudo chmod 777 sample.txt
+ chmod 777 sample.txt
 
 # J Write a command to create a file named sample2.txt with content similar to that of sample.txt
 
